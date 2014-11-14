@@ -622,7 +622,6 @@ public class DownloadManager {
 			if (!mRequestHeaders.isEmpty()) {
 				encodeHttpHeaders(values);
 			}
-			//			Downloads.c
 			//cgp 20140519  增加一个id
 			putIfNonNull(values, BaseColumns._ID, mId);
 			putIfNonNull(values, Downloads.COLUMN_ICONURL, mIconurl);
